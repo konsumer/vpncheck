@@ -1,0 +1,16 @@
+{
+  "name": "vpncheck",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Quick checker of your remote-ip (for testing VPN)",
+  "scripts": {
+    "start": "now dev",
+    "deploy": "now"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "now": "^16.7.3"
+  }
+}
