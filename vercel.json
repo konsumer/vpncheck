@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/", "destination": "/api/index.js"
+    },
+    {
+      "source": "/geo", "destination": "/api/geo.js"
+    }
+  ],
+  "functions": {
+    "api/geo.js": {
+      "includeFiles": "node_modules/geoip-lite/data/**"
+    }
+  }
+}

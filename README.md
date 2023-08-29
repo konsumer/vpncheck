@@ -4,4 +4,6 @@ I wanted a quick way to check my external IP, so I could see if my VPN was worki
 
 ```
 curl https://vpncheck.now.sh/
+
+curl https://vpncheck.now.sh/geo
 ```

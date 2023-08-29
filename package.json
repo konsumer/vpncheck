@@ -4,13 +4,16 @@
   "version": "0.0.0",
   "description": "Quick checker of your remote-ip (for testing VPN)",
   "scripts": {
-    "start": "now dev",
-    "deploy": "now"
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
+  "dependencies": {
+    "geoip-lite": "^1.4.7"
+  },
   "devDependencies": {
-    "now": "^16.7.3"
+    "vercel": "^32.1.0"
   }
 }
